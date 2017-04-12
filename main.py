@@ -3,14 +3,13 @@ from calc.app import CreateApp
 from PyQt5.QtWidgets import *
 
 
-
 class Application(QWidget):
     """
     Application is the class that initializes the app
     Application inherits from QWidget
     only method is __init__
     CreateApp is called in the init and then the attribute grid on
-    CreateApp is passed into setLayout in the init, then self.show()
+    CreateApp is passed into setLayout, then self.show()
     is called and displays the app
     """
 
